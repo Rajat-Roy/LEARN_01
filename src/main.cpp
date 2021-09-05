@@ -1,6 +1,7 @@
 #include <iostream>
+#include "Math/Math.h"
 int main()
 {
-    std::cout << "HELLO 2" << std::endl;
+    std::cout << "Sum: " << sum(2,3) << std::endl;
     return 0;
 }
